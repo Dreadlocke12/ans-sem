@@ -3,5 +3,5 @@
 
 - hosts: all
   gather_facts: false
-  tasks:
-    - mount -a:
+  ansible.builtin.shell:
+    cmd: mount -a
