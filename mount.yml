@@ -5,5 +5,4 @@
   tasks:
   
   - name: Mount Volumes
-    shell:
-    	"mount -a"
+    shell: mount -a
