@@ -1,7 +1,6 @@
 ---
 - hosts: all
   gather_facts: yes
-  become: yes
 
   tasks:
     - name: Perform a distro upgrade
